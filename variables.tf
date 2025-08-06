@@ -1,7 +1,6 @@
 variable "instance_type" {
-    type        = string
-    description = "The type of EC2 instance"
-    default     = "t3.micro"
+  type        = string
+  description = "The type of EC2 instance"
 }
 
 variable "env" {
