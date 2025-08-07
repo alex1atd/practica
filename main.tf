@@ -3,6 +3,6 @@ resource "aws_instance" "ec2" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "MyFirstEC2UsingTerraform-${var.env}"
+    Name = "${var.env}-ec2"
   }
 }
